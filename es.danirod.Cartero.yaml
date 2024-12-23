@@ -1,7 +1,7 @@
 ---
 id: es.danirod.Cartero
 runtime: org.gnome.Platform
-runtime-version: '46'
+runtime-version: '47'
 sdk: org.gnome.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
@@ -35,5 +35,5 @@ modules:
       - -Dprofile=default
     sources:
       - type: archive
-        url: https://github.com/danirod/cartero/releases/download/v0.1.2/cartero-0.1.2.tar.xz
-        sha256: d06ed9dacab343c190adfc7df11665ea0851dbf9f40d04c0f5065146921cc194
+        url: https://github.com/danirod/cartero/releases/download/v0.1.3/cartero-0.1.3.tar.xz
+        sha256: 673cb15c6d445e250a17ced4cc2d5af1d1a5da69d65bf628e103aff3c6ae0480
