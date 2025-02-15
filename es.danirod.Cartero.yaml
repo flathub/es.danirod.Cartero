@@ -35,5 +35,5 @@ modules:
       - -Dprofile=default
     sources:
       - type: archive
-        url: https://github.com/danirod/cartero/releases/download/v0.1.4/cartero-0.1.4.tar.xz
-        sha256: e520d03e6f0402d73a9863ef9ad55dea116eaac9419c8c83c0328b17ef7d59f2
+        url: https://github.com/danirod/cartero/releases/download/v0.1.5/cartero-0.1.5.tar.xz
+        sha256: 287c4a61d535cbd4456edf70b89294ecc5e7f30005a2478c513eefa0d2136173
