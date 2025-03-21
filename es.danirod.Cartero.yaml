@@ -1,7 +1,7 @@
 ---
 id: es.danirod.Cartero
 runtime: org.gnome.Platform
-runtime-version: '47'
+runtime-version: '48'
 sdk: org.gnome.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.rust-stable
@@ -27,7 +27,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.gnome.org/jwestman/blueprint-compiler
-        tag: v0.12.0
+        tag: v0.16.0
   - name: cartero
     buildsystem: meson
     run-tests: true
@@ -35,5 +35,5 @@ modules:
       - -Dprofile=default
     sources:
       - type: archive
-        url: https://github.com/danirod/cartero/releases/download/v0.1.5/cartero-0.1.5.tar.xz
-        sha256: 287c4a61d535cbd4456edf70b89294ecc5e7f30005a2478c513eefa0d2136173
+        url: https://github.com/danirod/cartero/releases/download/v0.2.0/cartero-0.2.0.tar.xz
+        sha256: 9bb20c1f8951ca284d5111098a26c7a871f352fc56efee6ee97ab5e76f8540a4
